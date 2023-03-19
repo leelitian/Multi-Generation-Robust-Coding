@@ -11,7 +11,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from range_coder import RangeEncoder, RangeDecoder
 
-
+# cheng2020 + SQ
 class JoinChen(JointAutoregressiveHierarchicalPriors):
     def __init__(self, N=192, M=192, **kwargs):
         super().__init__(N=N, M=M)

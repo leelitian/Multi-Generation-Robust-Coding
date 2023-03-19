@@ -1,3 +1,5 @@
+import torch
+import math
 import torch.nn as nn
 
 class RateDistortionLoss(nn.Module):

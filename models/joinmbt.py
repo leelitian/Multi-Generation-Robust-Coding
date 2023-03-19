@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from range_coder import RangeEncoder, RangeDecoder
 
-
+# mbt18 + SQ
 class JoinMbt(JointAutoregressiveHierarchicalPriors):
     def __init__(self, N=192, M=320, **kwargs):
         super().__init__(N=N, M=M)
